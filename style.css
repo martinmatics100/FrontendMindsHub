@@ -14,7 +14,6 @@ body {
 }
 
 header {
-  /*padding: 30px 10px 5px 20px;*/
   margin: 50 auto 20px;
 }
 
@@ -66,4 +65,15 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 0;
+  width: 200px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.chart-img{
+  margin: 30px;
+  width: 567.23px;
 }
