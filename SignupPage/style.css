@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.content .left {
+  width: 50%;
+  height: 100vh;
+  background-color: #916bbf;
+}
+
+.left .logo {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+  overflow: hidden;
+  display: flex;
+}
+
+.left .logo img {
+  width: 50%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.left .logo p {
+  margin-top: 11px;
+  margin-left: 5px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.left .text {
+  margin-top: 35px;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 3.5rem;
+}
+
+.left .pic {
+  width: 400px;
+  height: 360px;
+  /* background-color: red; */
+  margin-left: 100px;
+}
+
+.left .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.content .right {
+  width: 50%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+.right h3 {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.right form {
+  width: 60%;
+  display: block;
+  margin: 20px auto 0 auto;
+  text-align: justify;
+}
+
+.right form input[type="text"],
+.right form input[type="password"] {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #000000b0;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.password-container {
+  position: relative;
+}
+
+#toggleButton {
+  position: absolute;
+  right: 160px;
+  top: 57%;
+  border: none;
+  font-size: 20px;
+  opacity: 0.6;
+  outline: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.right form label {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.right form input[type="checkbox"] {
+  transform: scale(1.3);
+  margin-top: 10px;
+}
+
+.right form .privy {
+  color: #000000;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.right form .privy a {
+  color: #916bbf;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
+.right form .privy a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.right form input[type="submit"] {
+  background-color: #916bbf;
+  color: #fff;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.6s ease;
+}
+
+.right form input[type="submit"]:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.right .icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.icons a.google {
+  background-color: #cc4c4c25;
+  color: #e33e2b;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.icons a i.fa-google {
+  font-size: 17px;
+  margin-right: 7px;
+  color: #e33e2b;
+}
+
+.icons a.facebook {
+  background-color: #4c8ecc25;
+  color: #1877f2;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.icons a i.fa-facebook {
+  font-size: 17px;
+  margin-right: 7px;
+  color: #1877f2;
+}
