@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-content {
+    background-color: #FCF7E8;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-content {
+    /* background-color: red; */
+    width: 50%;
+    height: 95vh;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.left-content .logo {
+    width: 190px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-content .text {
+    color: #000000;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.left-content .text span {
+    color: #AE593A;
+    font-weight: 600;
+}
+
+.left-content .pic {
+    width: 350px;
+    height: 300px;
+    /* background-color: red; */
+    margin-left: 5%;
+}
+
+.left-content .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-content {
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+    padding-left: 30px;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+}
+
+.right-content .language {
+    height: 35px;
+    max-width: 300px;
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+.right-content .language #languages {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    outline: none;
+    color: #00000091;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.right-content .acct {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.right-content form {
+    max-width: 450px;
+}
+
+.right-content form input[type="text"],
+.right-content form input[type="password"] {
+    margin-top: 20px;
+    width: 450px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #FCF7E8;
+    font-size: 18px;
+    font-weight: 500;
+    color: #00000091;
+}
+
+.right-content form input[type="submit"] {
+    margin-top: 20px;
+    margin-left: 30%;
+    padding: 15px 80px;
+    border-radius: 50px;
+    background-color: #AE593A;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.right-content form input[type="submit"]:hover {
+    background-color: #FCF7E8;
+    color: #000000;
+}
+
+.right-content .horizontal-line {
+    border: 1px solid #00000091;
+    opacity: 0.6;
+    display: block;
+    width: 25%;
+    margin: 15px 0;
+}
+
+.right-content .sign {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 0 10px;
+    color: #00000091;
+}
+
+.right-content .sign .separator-text {
+    margin: 5px 15px 0 15px;
+}
+
+.right-content .icons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right-content .icons a {
+    margin-right: 90px;
+    font-size: 35px;
+    text-decoration: none;
+    transition: all 0.8s ease;
+}
+
+.right-content .icons a:hover {
+    font-size: 40px;
+}
+
+.right-content .icons a .fa-facebook {
+    color: rgba(0, 0, 255, 0.632);
+}
+
+.right-content .icons a .fa-google {
+    background: linear-gradient(170deg, red, yellow, green, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+.right-content .icons a .fa-square-instagram {
+    background: linear-gradient(350deg, yellow, purple 100%);
+    background-clip: text;
+    color: transparent;   
+}
+
+.right-content .log {
+    color: #00000091;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.log a {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.6s ease;
+}
+
+.log a:hover {
+    opacity: 1;
+    font-size: 20px;
+
+}
