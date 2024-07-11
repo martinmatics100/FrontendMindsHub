@@ -708,11 +708,11 @@ Moblie Resposiveness
   }
 
   .controls {
-    /* top: auto; */
+    top: 100%;
     bottom: o;
     flex-direction: row;
     justify-content: center;
-    left: 50%;
+    left: 0%;
     transform: translateY(-505);
     width: 100%;
     background-color: var(--color-grey-5);
